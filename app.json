@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "contactapp",
-    "slug": "contactapp",
+    "slug": "firstapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.venkatnvs.firstapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e8434280-007b-4ba4-b31e-8055c22754c8"
+      }
+    },
+    "owner": "venkatnvs"
   }
 }
